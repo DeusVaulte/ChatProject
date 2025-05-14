@@ -1,7 +1,0 @@
-html, body, #root {
-  height: 100%;         /* Fill the entire viewport height */
-  max-height: 100%;     /* Prevent going beyond viewport */
-  margin: 0;
-  padding: 0;
-  overflow: hidden;      /* Prevent scroll on body/root */
-}
