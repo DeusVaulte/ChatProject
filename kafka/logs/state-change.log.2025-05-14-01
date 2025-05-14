@@ -1,0 +1,3 @@
+[2025-05-14 01:54:01,314] INFO [Broker id=1] Transitioning 1 partition(s) to local leaders. (state.change.logger)
+[2025-05-14 01:54:01,319] INFO [Broker id=1] Creating new partition SendMessageTopic-0 with topic id O0Hxq6pcRySaZ1quShXGuw. (state.change.logger)
+[2025-05-14 01:54:01,399] INFO [Broker id=1] Leader SendMessageTopic-0 with topic id Some(O0Hxq6pcRySaZ1quShXGuw) starts at leader epoch 0 from offset 0 with partition epoch 0, high watermark 0, ISR [1], adding replicas [] and removing replicas [] . Previous leader None and previous leader epoch was -1. (state.change.logger)

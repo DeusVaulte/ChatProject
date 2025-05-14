@@ -1,0 +1,8 @@
+[2025-05-10 08:44:25,922] INFO [QuorumController id=1] Fencing broker 1 because its session has timed out. (org.apache.kafka.controller.ReplicationControlManager)
+[2025-05-10 08:44:26,045] INFO [QuorumController id=1] handleBrokerFenced: changing 52 partition(s) (org.apache.kafka.controller.ReplicationControlManager)
+[2025-05-10 08:44:26,114] INFO [QuorumController id=1] Replayed BrokerRegistrationChangeRecord modifying the registration for broker 1: BrokerRegistrationChangeRecord(brokerId=1, brokerEpoch=20257, fenced=1, inControlledShutdown=0, logDirs=[]) (org.apache.kafka.controller.ClusterControlManager)
+[2025-05-10 08:44:26,488] INFO [QuorumController id=1] The request from broker 1 to unfence has been granted because it has caught up with the offset of its register broker record 20257. (org.apache.kafka.controller.BrokerHeartbeatManager)
+[2025-05-10 08:44:26,580] INFO [QuorumController id=1] handleBrokerUnfenced: changing 52 partition(s) (org.apache.kafka.controller.ReplicationControlManager)
+[2025-05-10 08:44:26,580] INFO [QuorumController id=1] Replayed BrokerRegistrationChangeRecord modifying the registration for broker 1: BrokerRegistrationChangeRecord(brokerId=1, brokerEpoch=20257, fenced=-1, inControlledShutdown=0, logDirs=[]) (org.apache.kafka.controller.ClusterControlManager)
+[2025-05-10 08:49:26,129] INFO [QuorumController id=1] maybeBalancePartitionLeaders: generated 0 records in 2900 microseconds. (org.apache.kafka.controller.QuorumController)
+[2025-05-10 08:49:26,129] INFO [QuorumController id=1] maybeElectUncleanLeaders: generated 0 records in 35 microseconds. (org.apache.kafka.controller.QuorumController)

@@ -1,0 +1,2 @@
+[2025-05-13 20:04:23,898] INFO [QuorumController id=1] maybeBalancePartitionLeaders: generated 0 records in 586 microseconds. (org.apache.kafka.controller.QuorumController)
+[2025-05-13 20:04:23,898] INFO [QuorumController id=1] maybeElectUncleanLeaders: generated 0 records in 26 microseconds. (org.apache.kafka.controller.QuorumController)

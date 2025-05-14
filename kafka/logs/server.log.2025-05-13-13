@@ -1,0 +1,8 @@
+[2025-05-13 13:24:13,510] INFO [SnapshotGenerator id=1] Creating new KRaft snapshot file snapshot 00000000000000146441-0000000010 because we have waited at least 60 minute(s). (org.apache.kafka.image.publisher.SnapshotGenerator)
+[2025-05-13 13:24:13,542] INFO [SnapshotEmitter id=1] Successfully wrote snapshot 00000000000000146441-0000000010 (org.apache.kafka.image.publisher.SnapshotEmitter)
+[2025-05-13 13:34:48,996] INFO [ReplicaFetcherManager on broker 1] Removed fetcher for partitions Set(JoinServerTopic-0) (kafka.server.ReplicaFetcherManager)
+[2025-05-13 13:34:49,033] INFO [LogLoader partition=JoinServerTopic-0, dir=C:\ChatProject\kafka\kraft-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2025-05-13 13:34:49,041] INFO Created log for partition JoinServerTopic-0 in C:\ChatProject\kafka\kraft-logs\JoinServerTopic-0 with properties {} (kafka.log.LogManager)
+[2025-05-13 13:34:49,051] INFO [Partition JoinServerTopic-0 broker=1] No checkpointed highwatermark is found for partition JoinServerTopic-0 (kafka.cluster.Partition)
+[2025-05-13 13:34:49,051] INFO [Partition JoinServerTopic-0 broker=1] Log loaded for partition JoinServerTopic-0 with initial high watermark 0 (kafka.cluster.Partition)
+[2025-05-13 13:44:49,306] INFO [NodeToControllerChannelManager id=1 name=forwarding] Node 1 disconnected. (org.apache.kafka.clients.NetworkClient)

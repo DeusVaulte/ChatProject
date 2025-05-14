@@ -1,0 +1,2 @@
+[2025-05-13 12:47:45,151] INFO [QuorumController id=1] processBrokerHeartbeat: event unable to start processing because of TimeoutException. (org.apache.kafka.controller.QuorumController)
+[2025-05-13 12:47:45,171] ERROR [QuorumController id=1] processExpiredBrokerHeartbeat: controller event queue overloaded. Timed out heartbeat from broker 1. (org.apache.kafka.controller.ReplicationControlManager)

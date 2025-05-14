@@ -1,0 +1,87 @@
+.server-pages-container{
+    display: grid;
+    
+    grid-template-rows: 0.7fr 0.3fr;
+    height: auto;
+    width: auto;
+    grid-template-areas: 
+    "messages" 
+    "input"
+
+    ;
+    border: solid;
+    
+    background-color: burlywood;
+
+}
+
+
+.server-pages{
+    grid-area: messages;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    
+    
+    height: 100%;
+    
+    background-color: chocolate;
+    
+}
+
+.server-input{
+    position: sticky;
+    grid-area: input;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.custom-textarea{
+    width: 100%;
+    min-height: 120px;
+    padding: 12px 16px;
+    font-size: 1rem;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fdfdfd;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-left: 2%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+}
+.custom-textarea:focus {
+  outline: none;
+  border-color: #5b9bd5;
+  box-shadow: 0 0 5px rgba(91, 155, 213, 0.5);
+}
+
+.send-button{
+    background-color: #4CAF50; /* green background */
+    height: 80px;
+    width: 80px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    margin: 2%;
+
+}
+.send-button img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.send-button:hover {
+  background-color: #45a049; /* darker green on hover */
+}
