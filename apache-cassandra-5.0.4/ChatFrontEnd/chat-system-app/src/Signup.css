@@ -1,0 +1,157 @@
+
+
+.signup-area{
+
+    display: grid;
+    place-items: center;
+    
+    border: solid;
+    height: 100vh;
+}
+
+.signup-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "wallpaper"
+    "username"
+    "password"
+    "area1"
+    
+    ;
+
+    width: 60vw;
+    height: auto;
+    background-color: red;
+
+    border: solid;
+    border-color: darkblue;
+
+}
+
+.wallpaper-area {
+    grid-area: wallpaper;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    border: solid;
+    border-color: black;
+
+}
+.wallpaper-area img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.username {
+    grid-area: username;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+
+    border: solid;
+    border-color: black;
+
+}
+.password {
+    grid-area: password;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+
+    border: solid;
+    border-color: black;
+}
+
+.button-container{
+    grid-area: area1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    border: solid;
+    border-color: black;
+
+}
+
+.button-area {
+   
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    margin: 1%;
+    border: solid;
+    border-color: black;
+}
+
+
+
+.login-button {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 1%;
+    height: auto;
+    border: solid;
+    border-color: black;
+}
+
+.custom-button {
+  background-color: #4CAF50; /* green background */
+  color: white;              /* white text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #45a049; /* darker green on hover */
+}
+
+.custom-input {
+  width: 80%;
+  padding: 10px 15px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.custom-input:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+.popup-notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #222;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  z-index: 1000;
+  animation: fadeInOut 3s ease forwards;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(-20px); }
+  10% { opacity: 1; transform: translateY(0); }
+  90% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(-20px); }
+}
